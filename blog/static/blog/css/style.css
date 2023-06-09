@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, rgba(0, 217, 255, 0.8), rgba(0,255,0,0) 70.71%),
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    color: #dee4ff;
+    min-height: 100vh;
+}
+
+p{
+    color:rgb(241, 244, 247);
+}
+/* home page  */
+.jumbo-color {
+    background-color: rgb(83, 81, 81);
+}
+
+
+/* contact page  */
+form {
+    color: rgb(52, 32, 55);
+}
+
+.form-control {
+    background-color: rgb(177, 168, 168);
+}
+
+
+
+
+
+
+/* navbar */
+
+.lists li a {
+    text-decoration: none;
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.lists li a:hover {
+    background: linear-gradient(45deg, cyan, rgb(207, 54, 218));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lists li a::before {
+    content: '';
+    position: absolute;
+    height: 2.5;
+    bottom: -5px;
+    width: 0;
+    border-radius: 50px;
+    background: linear-gradient(45deg, cyan, rgb(249, 81, 215));
+    transition: 0.5s;
+    width: 100%;
+}
+
+.lists a.nav-link.activate {
+    background: linear-gradient(45deg, cyan, rgb(228, 78, 203));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
